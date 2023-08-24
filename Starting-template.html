@@ -142,12 +142,18 @@
             <a href="#" id="loadImagesBtn" class="btn btn-primary my-2">Load Images</a>
             <a href="#" id="loadSecondaryImagesBtn" class="btn btn-secondary my-2">Load Secondary Images</a>
           </p>
+          <div class="input-group">
+            <input type="text" class="form-control" />
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button">Search</button>
+            </div>
+          </div>
         </div>
       </section>
 
       <div class="album py-5 bg-light">
         <div class="container">
-          <div class="row">
+          <div id="myGrid" class="row row-cols-1 row-cols-md-3">
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <svg
